@@ -28,3 +28,12 @@ We grabbed a random 20% subset of our dataset shaped ((142246, 1024), (142246, 5
 
 ## Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danplotkin/ProtienPrediction/blob/main/ProtienPrediction.ipynb)
+
+## Citation
+@misc{cafa-5-protein-function-prediction,
+    author = {Iddo Friedberg, Predrag Radivojac, Clara De Paolis, Damiano Piovesan, Parnal Joshi, Walter Reade, Addison Howard},
+    title = {CAFA 5 Protein Function Prediction},
+    publisher = {Kaggle},
+    year = {2023},
+    url = {https://kaggle.com/competitions/cafa-5-protein-function-prediction}
+}
