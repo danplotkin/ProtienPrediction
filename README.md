@@ -27,4 +27,4 @@ We grabbed a random 20% subset of our dataset shaped ((142246, 1024), (142246, 5
 <img width="636" alt="image" src="https://github.com/danplotkin/ProtienPrediction/assets/116699460/0d279cc7-6094-4f90-8f03-fdeb6c67ab9f">
 
 # Notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danplotkin/ProtienPrediction/blob/main/ProtienPrediction.ipynb)
