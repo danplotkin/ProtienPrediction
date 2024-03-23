@@ -15,7 +15,7 @@ We will be using the CAFA 5 dataset and the T_5 embeds datasets from Kaggle for 
 ## Training
 
 ### GPU
-This model was trained using a V100 GPU with premium RAM due to the large dataset used to train. However, a less powerfull GPU (or maybe even CPU) can be used for training.
+This model was trained using a V100 GPU with premium RAM due to the large dataset used to train. However, a less powerfull GPU (or maybe even CPU) can be used for training. We trained 20 epochs.
 
 ### Metrics 
 Since this is a multi-label classification problem, we use `tf.keras.losses.BinaryCrossentropy()` as our loss function, and `tf.keras.metrics.BinaryAccuracy()` and `tf.keras.metrics.AUC()` as our metrics. 
@@ -24,7 +24,7 @@ Since this is a multi-label classification problem, we use `tf.keras.losses.Bina
 We grabbed a random 20% subset of our dataset shaped ((142246, 1024), (142246, 5000)) for validation.
 
 ### Results
-<img src='https://github.com/danplotkin/ProtienPrediction/assets/116699460/9bdf470a-29a9-4998-90f0-65ee0a5e6b65' width='500' height='500'>
+<img src='https://github.com/danplotkin/ProtienPrediction/assets/116699460/9bdf470a-29a9-4998-90f0-65ee0a5e6b65' width='500' height='300'>
 
 ## Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danplotkin/ProtienPrediction/blob/main/ProtienPrediction.ipynb)
