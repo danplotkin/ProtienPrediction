@@ -24,8 +24,7 @@ Since this is a multi-label classification problem, we use `tf.keras.losses.Bina
 We grabbed a random 20% subset of our dataset shaped ((142246, 1024), (142246, 5000)) for validation.
 
 ### Results
-![image](https://github.com/danplotkin/ProtienPrediction/assets/116699460/9bdf470a-29a9-4998-90f0-65ee0a5e6b65)
-
+<img src='https://github.com/danplotkin/ProtienPrediction/assets/116699460/9bdf470a-29a9-4998-90f0-65ee0a5e6b65' width='500' height='500'>
 
 ## Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danplotkin/ProtienPrediction/blob/main/ProtienPrediction.ipynb)
