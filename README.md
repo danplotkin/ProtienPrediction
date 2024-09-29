@@ -1,4 +1,4 @@
-# Amino Acid Sequence Function Prediction with TensorFlow and Prot5 Embeddings
+# Amino Acid Sequence Function Prediction
 
 ## About 
 
